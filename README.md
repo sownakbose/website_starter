@@ -1,6 +1,6 @@
 # Building a website: starter and follow-along steps
 
-A one-page website for the workshop. Plain HTML and CSS, nothing to install. You need a free GitHub account and a laptop with a web browser. Follow the steps below as the talk goes on, and edit anything you like.
+A one-page website for the workshop that uses just plain HTML and CSS. There is nothing to install. You need a free GitHub account and a laptop with a web browser. Follow the steps below as the talk goes on, and edit anything you like.
 
 | File | What it does |
 |---|---|
@@ -38,7 +38,7 @@ In your copy, click **Code** › **Download ZIP** and unzip it. Open a terminal 
 
 Open **http://localhost:8000** in your browser. Edit `style.css`, save, and refresh to see the change straight away, with no commit. Stop the server with **Ctrl+C**. This address only works on your own machine, and you can skip this step.
 
-## Ideas
+## Extensions
 - Add a photo (see the comment in `index.html`).
 - Add another paper: copy one `<li>` line.
 - Add a new section: copy a whole `<section>` block and rename it.
