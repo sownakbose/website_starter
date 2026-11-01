@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <!-- Without this line, phones pretend to be a wide desktop screen. -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- CHANGE ME: the title shows in the browser tab and in search results. -->
+  <title>Your Name – Astronomer</title>
+  <meta name="description" content="CHANGE ME: one sentence about you and your research.">
+
+  <!-- This line loads style.css. Colours and fonts live there, not here. -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    <!-- CHANGE ME: your name and a one-line description -->
+    <h1>Your Name</h1>
+    <p class="tagline">Postdoc in astrophysics at Your University</p>
+
+    <nav>
+      <a href="#about">About</a>
+      <a href="#papers">Papers</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <section id="about">
+      <h2>About</h2>
+      <p>
+        CHANGE ME: write two or three sentences about what you work on.
+        Everything between the tags is just text.
+      </p>
+      <!-- Try it: add a photo. Put a file called photo.jpg next to this file, then remove the comment marks.
+      <img src="photo.jpg" alt="Describe the photo in a few words" width="200">
+      -->
+    </section>
+
+    <section id="papers">
+      <h2>Papers</h2>
+      <ul>
+        <li><a href="https://arxiv.org/">Paper title one</a>, Authors (2026)</li>
+        <li><a href="https://arxiv.org/">Paper title two</a>, Authors (2025)</li>
+      </ul>
+      <!-- Try it: copy one whole <li> line and paste it below to add a paper. -->
+    </section>
+
+    <section id="contact">
+      <h2>Contact</h2>
+      <p>Email: your.name@example.org</p>
+    </section>
+  </main>
+
+  <footer>
+    <button id="theme-button" type="button">Switch light / dark</button>
+  </footer>
+
+  <!-- Optional: a tiny script. It adds and removes one class name on the page. -->
+  <script src="script.js"></script>
+</body>
+</html>

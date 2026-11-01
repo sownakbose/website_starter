@@ -1,0 +1,59 @@
+/* Colours and fonts are set here, once, at the top.
+   Everything below refers to them by name, so changing a value
+   in this block changes it across the whole page. */
+
+:root {
+  --bg: #ffffff;
+  --text: #222222;
+  --accent: #0b5cad;
+  --font-body: Georgia, "Times New Roman", serif;
+  --font-heading: Arial, Helvetica, sans-serif;
+}
+
+/* Used by the light / dark button. See script.js. */
+body.dark {
+  --bg: #111111;
+  --text: #eeeeee;
+  --accent: #6cb4ff;
+}
+
+body {
+  background: var(--bg);
+  color: var(--text);
+  font-family: var(--font-body);
+  font-size: 18px;
+  line-height: 1.6;
+
+  /* Keeps lines to a readable length, and centres the column. */
+  max-width: 42rem;
+  margin: 0 auto;
+  padding: 2rem 1rem;
+}
+
+h1, h2 {
+  font-family: var(--font-heading);
+  line-height: 1.2;
+}
+
+h1 { font-size: 2.4rem; margin-bottom: 0.2rem; }
+h2 { font-size: 1.5rem; margin-top: 2.5rem; }
+
+.tagline { margin-top: 0; }
+
+a { color: var(--accent); }
+
+nav a { margin-right: 1.2rem; }
+
+button {
+  font: inherit;
+  padding: 0.4rem 0.8rem;
+  cursor: pointer;
+}
+
+footer { margin-top: 3rem; }
+
+/* Small screens: smaller text and tighter padding below 600px wide. */
+@media (max-width: 600px) {
+  body { font-size: 16px; padding: 1rem 0.8rem; }
+  h1 { font-size: 1.9rem; }
+}
